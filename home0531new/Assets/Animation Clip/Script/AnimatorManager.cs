@@ -17,16 +17,16 @@ public class AnimatorManager : MonoBehaviour
 
             data.loopTime = false;
 
-            animationUtility.SetAnimationClipSettings(animationClip[i], data);
+            AnimationUtility.SetAnimationClipSettings(animationClip[i], data);
         }
     }
 
     // Update is called once per frame
     void Update()
     {
-        if(animator.GetCurrentAnimatorStateinfo(0).IsName("Close"))
+        if (animator.GetCurrentAnimatorStateInfo(0).IsName("Close"))
         {
-            if(animator.GetCurrentAnimatorStateinfo(0).normalizedTime>=1)
+            if(animator.GetCurrentAnimatorStateInfo(0).normalizedTime>=1)
             {
                 animator.gameObject.SetActive(false);
             }
