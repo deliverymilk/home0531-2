@@ -1,18 +1,26 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Parallax : MonoBehaviour
 {
-    // Start is called before the first frame update
+    [SerializeField] Rect rect;
+    [SerializeField] RawImage rawImage;
+    [SerializeField] float speed = 0.25f;
+
+
+
     void Start()
     {
         
     }
 
-    // Update is called once per frame
+
     void Update()
     {
-        
+        rect = rawImage.uvRect;
+        rect.x += Time.deltaTime * speed;
+        rawImage.uvRect = rect;
     }
 }
