@@ -61,6 +61,8 @@
     <Compile Include="Assets\Animation Clip\Script\AnimatorManager.cs" />
     <Compile Include="Assets\Physics\Script\PhysicsManager.cs" />
     <Compile Include="Assets\Tutorial\Script\NewBehaviourScript.cs" />
+    <Compile Include="Assets\Animation Retargeting\Script\Skeleton.cs" />
+    <Compile Include="Assets\Animation Retargeting\Script\Character.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
