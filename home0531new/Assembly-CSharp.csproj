@@ -57,12 +57,13 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Animation Clip\Script\Parallax.cs" />
+    <Compile Include="Assets\Animation Retargeting\Script\Character.cs" />
     <Compile Include="Assets\Physics\Script\BillardBall.cs" />
     <Compile Include="Assets\Animation Clip\Script\AnimatorManager.cs" />
     <Compile Include="Assets\Physics\Script\PhysicsManager.cs" />
     <Compile Include="Assets\Tutorial\Script\NewBehaviourScript.cs" />
     <Compile Include="Assets\Animation Retargeting\Script\Skeleton.cs" />
-    <Compile Include="Assets\Animation Retargeting\Script\Character.cs" />
+    <Compile Include="Assets\Light\Script\Movement.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
