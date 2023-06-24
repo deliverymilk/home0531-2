@@ -352,6 +352,8 @@
 "Assets/Light/Script/Movement.cs"
 "Assets/Physics/Script/BillardBall.cs"
 "Assets/Physics/Script/PhysicsManager.cs"
+"Assets/Rotation/Script/Observe.cs"
+"Assets/Rotation/Script/Revolution.cs"
 "Assets/Tutorial/Script/NewBehaviourScript.cs"
 -langversion:9.0
 

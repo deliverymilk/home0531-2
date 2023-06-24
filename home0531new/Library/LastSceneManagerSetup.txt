@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/Light/Scene/Light Examjple.unity
+- path: Assets/Rotation/Scene/Rotation Scene.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0

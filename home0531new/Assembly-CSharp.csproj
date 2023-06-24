@@ -64,6 +64,8 @@
     <Compile Include="Assets\Tutorial\Script\NewBehaviourScript.cs" />
     <Compile Include="Assets\Animation Retargeting\Script\Skeleton.cs" />
     <Compile Include="Assets\Light\Script\Movement.cs" />
+    <Compile Include="Assets\Rotation\Script\Observe.cs" />
+    <Compile Include="Assets\Rotation\Script\Revolution.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
